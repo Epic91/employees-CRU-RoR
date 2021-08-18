@@ -1,24 +1,11 @@
-# README
+# Employee Form
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* This is a simple Rails project, focusing on the index, show, new, create, edit and update methods.
 
-Things you may want to cover:
+* You are able to add a new employee into the db
 
-* Ruby version
+* On submit you are able to view the recently submitted employees details.
 
-* System dependencies
+* You are also able to edit the current employee
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* You're able to view all of the employees in the db
