@@ -1,2 +1,27 @@
-<h1>Employees#edit</h1>
-<p>Find me in app/views/employees/edit.html.erb</p>
+<h1>Edit the employee</h1>
+
+<%= form_for @employee do |f| %>
+    <%= f.label 'First Name'%><br>
+    <%= f.text_field :first_name %><br><br>
+
+    <%= f.label 'Last Name'%><br>
+    <%= f.text_field :last_name %><br><br>
+
+    <%= f.label 'Age'%><br>
+    <%= f.number_field :age %><br><br>
+
+    <%= f.label 'Gender'%><br>
+    <%= f.text_field :gender %><br><br>
+
+    <%= f.label 'Phone Number'%><br>
+    <%= f.text_field :phone_number %><br><br>
+
+    <%= f.label 'Email'%><br>
+    <%= f.email_field :email_address %><br><br>
+
+    <%= f.label 'Occupation'%><br>
+    <%= f.text_field :occupation %><br><br>
+
+    <%= f.submit 'Submit Employee' %>
+
+<% end %>
