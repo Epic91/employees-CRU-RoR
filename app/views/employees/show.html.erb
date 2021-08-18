@@ -5,3 +5,5 @@ Employee Details<br><br>
 <strong>Phone Number:</strong> <%= @employee.phone_number %><br>
 <strong>Email:</strong> <%= @employee.email_address %><br>
 <strong>Occupation:</strong> <%= @employee.occupation %><br>
+
+<%= link_to 'Edit employee', edit_employee_path(@employee) %> | <%= link_to 'View all employees', employees_path %>
